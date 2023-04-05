@@ -8,7 +8,7 @@ tags:
   - postgreSQL
 ---
 
-# Directus railway template
+# Directus railway template DEPLOY
 
 This example runs a [Directus](https://directus.io/) instance with minimal config using PostgreSQL.
 
