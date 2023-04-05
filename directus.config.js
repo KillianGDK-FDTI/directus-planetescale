@@ -15,7 +15,7 @@ module.exports = function (env) {
 
         // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
-        DB_CLIENT: 'pg',
+        DB_CLIENT: 'coackroachdb',
         DB_HOST: env.PGHOST,
         DB_PORT: env.PGPORT,
         DB_DATABASE: env.PGDATABASE,
