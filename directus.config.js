@@ -13,7 +13,7 @@ module.exports = function (env) {
         // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
         PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
 
-        // Database variables from Railway PostgreSQL Plugin
+        // Database variables from Railway PostgreSQL Plugin zer
         // Reference: https://docs.railway.app/plugins/postgresql
         DB_CLIENT: 'coackroachdb',
         DB_HOST: env.PGHOST,
